@@ -9,23 +9,39 @@ body{
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
 	position: absolute;
-	background: url(img/fon.jpg);
+	background-color: #F7EDED;
+	/*background: url(img/fon.jpg);*/
 }
 h1{
 	text-align: center;
+	padding-top: 1%;
 }
 .top{
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50em;
+	align-content: center;
+	margin-top: 18%;
+	width: 100em;
+	border: 1px solid black;
 }
 #search{
-	width: 50em;
-	height: 3em;
+	width: 90em;
+	height: 5em;
+	margin-left: 10em;
 	border-radius: 45px;
-	font-size: 12px;
+	font-size: 14px;
+	padding: 0 0 0 15px;
+	color: #564887;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	/*font-weight: 600;*/
+	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+	border: 1px solid purple;
+}
+input[type="text"]{
+	/*padding: 0 0 0 20px;*/
+	/*font-size: 48px;*/
+	/*color: blue;*/
 }
 input{
 	width: 7em;
@@ -37,13 +53,23 @@ input{
 }
 input[type="button"]{
 	background-color: #fff;
-}
-hr{
-	margin: 1%;
+	width: 8em;
+	height: 5em;
+	border-radius: 45px;
+	box-shadow: 0 8px 15px rgba(0,0,0,.1);
+	margin-left: -8em;
+	font-size: 14px;
+	border: 1px solid purple;
+	/*margin-top: 0px;*/
+
 }
 .leftbar{
 	width: 2em;
 	float: left;
+}
+.btn{
+    position: relative;
+	margin-left: 10em;
 }
 a.btn{
   text-decoration: none;
@@ -71,16 +97,21 @@ a.btn:hover{
   color: white;
 }
 .content{
-	background: linear-gradient(45deg, #0048ff, #ff0000);
+	background: linear-gradient(45deg, #c488ef, #e5e07e);
 	margin-left: 15em;
 	margin-right: 5em;
 	border-radius: 5px;
 }
 .content p{
 	display: block;
-	color: white;
+	color: #262228;
 	margin-left: 15em;
 	margin-right: 5em;
 	font-size: 26px;
 	font-weight: 400;
+}
+.db{
+	background-color: #fff;
+	margin: 50px;
+	padding: 50px;
 }
